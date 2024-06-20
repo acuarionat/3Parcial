@@ -6,7 +6,7 @@ const EjercicioDetalle = () => {
       <img src={'imagenes/image.png'} alt="ejericicio" />
       <div className="texto">
         <h2>Puxada frontal</h2>
-        <p>3 séries x 12 repetições</p>
+        <p>3 séries x 12 repetiçoes</p>
       </div>
     </div>
   );
