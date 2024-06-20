@@ -1,12 +1,12 @@
 import React from "react";
-
-const EjercicioDetalle = ({ejercicio}) => {
+import './EjercicioDetalle.css'
+const EjercicioDetalle = () => {
   return (
     <div className="detalle">
-      <img src={ejercicio.imagen} alt="ejericicio" />
+      <img src={'imagenes/image.png'} alt="ejericicio" />
       <div className="texto">
-        <h2>{ejercicio.nombre}</h2>
-        <p>{ejercicio.series} x {ejercicio.repeticiones}</p>
+        <h2>Puxada frontal</h2>
+        <p>3 séries x 12 repetições</p>
       </div>
     </div>
   );
